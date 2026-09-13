@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@800&amp;display=swap');
+      .brand-title {
+        font-family: 'Cinzel', Georgia, 'Times New Roman', serif;
+        font-weight: 800;
+        font-size: 112px;
+        fill: #9e1f24;
+        letter-spacing: 0.08em;
+      }
+      .brand-subtitle {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 34px;
+        fill: #0c2364;
+        letter-spacing: 0.12em;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="15" y="15" width="970" height="290" rx="36" fill="#ffffff" stroke="#0c2364" stroke-width="8"/>
+
+  <!-- Logo Monogram Symbol (Left) -->
+  <g transform="translate(60, 48)">
+    <!-- Outer Red Arc & A/P upper swoop -->
+    <path d="M 98 12 C 145 12 186 42 198 88 C 188 78 174 72 158 72 C 130 72 108 88 100 110 C 94 104 88 98 78 88 L 102 36 C 100 28 98 20 98 12 Z" fill="#9e1f24" />
+    
+    <!-- Red Top Left Arch -->
+    <path d="M 85 14 C 42 28 12 70 12 118 C 12 136 16 152 24 168 C 24 148 32 128 44 112 C 34 85 48 45 85 14 Z" fill="#9e1f24" />
+
+    <!-- Red 'A' Triangle bar & apex -->
+    <path d="M 68 85 L 126 142 L 96 142 L 84 122 L 56 122 L 44 142 L 20 142 Z" fill="#9e1f24" />
+
+    <!-- Blue Bottom Loop / Swoop 'P' -->
+    <path d="M 52 144 L 140 144 C 180 144 206 172 206 200 C 206 208 196 218 180 224 C 150 216 126 195 90 195 C 64 195 44 206 32 216 C 54 228 80 234 110 234 C 165 234 212 195 218 140 C 218 132 202 124 178 124 L 52 124 Z" fill="#0c2364" />
+    <path d="M 52 144 L 98 214 L 68 214 L 40 168 L 40 214 L 18 214 L 18 144 Z" fill="#0c2364" />
+  </g>
+
+  <!-- Brand Typography (Right) -->
+  <!-- ASHOKA -->
+  <text x="285" y="172" class="brand-title">ASHOKA</text>
+
+  <!-- Horizontal Divider Line -->
+  <line x1="275" y1="195" x2="945" y2="195" stroke="#0c2364" stroke-width="5" stroke-linecap="square" />
+
+  <!-- PHOTOSTAT AND PRINTING PRESS -->
+  <text x="290" y="248" class="brand-subtitle">PHOTOSTAT AND PRINTING PRESS</text>
+</svg>
